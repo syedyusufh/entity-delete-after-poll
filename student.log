@@ -1,0 +1,137 @@
+12:31:27.281 [Thread-0] DEBUG org.springframework.boot.devtools.restart.classloader.RestartClassLoader - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@57a1b0e
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot ::[39m             [2m (v2.7.5)
+
+[2m2022-10-22 12:31:27.824[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mc.i.s.EntityDeleteAfterPollApplication  [2m: Starting EntityDeleteAfterPollApplication using Java 17.0.1 on Syed-Habib-PC with PID 4804 (D:\workspace-sts\entity-delete-after-poll\target\classes started by lotus in D:\workspace-sts\entity-delete-after-poll)
+[2m2022-10-22 12:31:27.825[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mc.i.s.EntityDeleteAfterPollApplication  [2m: No active profile set, falling back to 1 default profile: "default"
+[2m2022-10-22 12:31:27.886[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36m.e.DevToolsPropertyDefaultsPostProcessor[2m: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2022-10-22 12:31:27.886[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36m.e.DevToolsPropertyDefaultsPostProcessor[2m: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2022-10-22 12:31:28.800[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36m.s.d.r.c.RepositoryConfigurationDelegate[2m: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2022-10-22 12:31:28.811[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36m.s.d.r.c.RepositoryConfigurationDelegate[2m: Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+[2m2022-10-22 12:31:28.993[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mfaultConfiguringBeanFactoryPostProcessor[2m: No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2m2022-10-22 12:31:29.004[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mfaultConfiguringBeanFactoryPostProcessor[2m: No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2m2022-10-22 12:31:29.081[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.s.cloud.context.scope.GenericScope    [2m: BeanFactory id=3e40a3ad-76d3-3c34-b9a0-6a57690ecaee
+[2m2022-10-22 12:31:29.403[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mtrationDelegate$BeanPostProcessorChecker[2m: Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2022-10-22 12:31:29.437[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mtrationDelegate$BeanPostProcessorChecker[2m: Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2022-10-22 12:31:29.990[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.s.b.w.embedded.tomcat.TomcatWebServer [2m: Tomcat initialized with port(s): 8080 (http)
+[2m2022-10-22 12:31:29.996[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.apache.catalina.core.StandardService  [2m: Starting service [Tomcat]
+[2m2022-10-22 12:31:29.997[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36morg.apache.catalina.core.StandardEngine [2m: Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2m2022-10-22 12:31:30.094[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.a.c.c.C.[Tomcat].[localhost].[/]      [2m: Initializing Spring embedded WebApplicationContext
+[2m2022-10-22 12:31:30.094[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mw.s.c.ServletWebServerApplicationContext[2m: Root WebApplicationContext: initialization completed in 2208 ms
+[2m2022-10-22 12:31:30.281[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mcom.zaxxer.hikari.HikariDataSource      [2m: HikariPool-1 - Starting...
+[2m2022-10-22 12:31:30.448[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mcom.zaxxer.hikari.HikariDataSource      [2m: HikariPool-1 - Start completed.
+[2m2022-10-22 12:31:30.456[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.s.b.a.h2.H2ConsoleAutoConfiguration   [2m: H2 console available at '/h2console/'. Database available at 'jdbc:h2:mem:sampledb'
+[2m2022-10-22 12:31:31.140[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.hibernate.jpa.internal.util.LogHelper [2m: HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2022-10-22 12:31:31.178[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36morg.hibernate.Version                   [2m: HHH000412: Hibernate ORM core version 5.6.12.Final
+[2m2022-10-22 12:31:31.307[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.hibernate.annotations.common.Version  [2m: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2022-10-22 12:31:31.393[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36morg.hibernate.dialect.Dialect           [2m: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2m2022-10-22 12:31:31.783[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.h.e.t.j.p.i.JtaPlatformInitiator      [2m: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2022-10-22 12:31:31.791[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mj.LocalContainerEntityManagerFactoryBean[2m: Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2022-10-22 12:31:32.074[33m WARN [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mJpaBaseConfiguration$JpaWebConfiguration[2m: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2022-10-22 12:31:32.699[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.s.b.d.a.OptionalLiveReloadServer      [2m: LiveReload server is running on port 35729
+[2m2022-10-22 12:31:32.966[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.s.b.a.e.web.EndpointLinksResolver     [2m: Exposing 1 endpoint(s) beneath base path '/actuator'
+[2m2022-10-22 12:31:33.101[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.s.i.endpoint.EventDrivenConsumer      [2m: Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2m2022-10-22 12:31:33.101[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.s.i.channel.PublishSubscribeChannel   [2m: Channel 'entity-delete-after-poll.errorChannel' has 1 subscriber(s).
+[2m2022-10-22 12:31:33.101[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.s.i.endpoint.EventDrivenConsumer      [2m: started bean '_org.springframework.integration.errorLogger'
+[2m2022-10-22 12:31:33.101[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.s.integration.channel.DirectChannel   [2m: Channel 'entity-delete-after-poll.mainFlow.channel#0' has 1 subscriber(s).
+[2m2022-10-22 12:31:33.101[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.s.i.endpoint.EventDrivenConsumer      [2m: started bean 'mainFlow.org.springframework.integration.config.ConsumerEndpointFactoryBean#0'; defined in: 'class path resource [com/integration/sample/config/StudentFlowConfig.class]'; from source: 'bean method mainFlow'
+[2m2022-10-22 12:31:33.108[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.s.i.e.SourcePollingChannelAdapter     [2m: started bean 'mainFlow.org.springframework.integration.config.SourcePollingChannelAdapterFactoryBean#0'; defined in: 'class path resource [com/integration/sample/config/StudentFlowConfig.class]'; from source: 'bean method mainFlow'
+[2m2022-10-22 12:31:33.127[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mo.s.b.w.embedded.tomcat.TomcatWebServer [2m: Tomcat started on port(s): 8080 (http) with context path ''
+[2m2022-10-22 12:31:33.161[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[   scheduling-1][36mc.i.s.config.MessageSourceLoggingAdvice [2m: >>>>>>>>> POLLER RUN <<<<<<<<<<<<<<
+[2m2022-10-22 12:31:33.296[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[   scheduling-1][36mc.i.s.config.MessageSourceLoggingAdvice [2m: ________________ RECEIVED _______________ [Student(id=1, name=John, status=null)]
+[2m2022-10-22 12:31:33.308[32m INFO [entity-delete-after-poll,,][4804[2m---[2m[  restartedMain][36mc.i.s.EntityDeleteAfterPollApplication  [2m: Started EntityDeleteAfterPollApplication in 6.015 seconds (JVM running for 6.76)
+[2m2022-10-22 12:31:33.315[32m INFO [entity-delete-after-poll,5d2f7d48c761bb64,1f8b4989f2d1241c][4804[2m---[2m[   scheduling-1][36mc.i.sample.config.StudentFlowConfig     [2m: ***** Entity Passed Down, which shouldn't be: [Student(id=1, name=John, status=null)]
+[2m2022-10-22 12:31:33.324[33m WARN [entity-delete-after-poll,,][4804[2m---[2m[   scheduling-1][36mo.h.engine.jdbc.spi.SqlExceptionHelper  [2m: SQL Error: 42102, SQLState: 42S02
+[2m2022-10-22 12:31:33.324[31mERROR [entity-delete-after-poll,,][4804[2m---[2m[   scheduling-1][36mo.h.engine.jdbc.spi.SqlExceptionHelper  [2m: Table "NON_EXISTENT_ENTITY" not found; SQL statement:
+UPDATE non_existent_entity SET status = 'PICKED' WHERE id = ? [42102-214]
+[2m2022-10-22 12:31:33.330[31mERROR [entity-delete-after-poll,64a4932213c8ada1,64a4932213c8ada1][4804[2m---[2m[   scheduling-1][36mo.s.integration.handler.LoggingHandler  [2m: org.springframework.messaging.MessagingException: nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [UPDATE non_existent_entity SET status = 'PICKED' WHERE id = ?]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement, failedMessage=GenericMessage [payload=[Student(id=1, name=John, status=null)], headers={id=5da13acd-ceac-e58f-cb21-340573720c40, timestamp=1666427493295}]
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.pollForMessage(AbstractPollingEndpoint.java:427)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.lambda$createPoller$4(AbstractPollingEndpoint.java:348)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.lambda$execute$0(ErrorHandlingTaskExecutor.java:57)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.lambda$createPoller$5(AbstractPollingEndpoint.java:341)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [UPDATE non_existent_entity SET status = 'PICKED' WHERE id = ?]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:259)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy4/jdk.proxy4.$Proxy185.call(Unknown Source)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.pollForMessage(AbstractPollingEndpoint.java:413)
+	... 13 more
+Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:81)
+	at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.buildBatchStatement(AbstractBatchImpl.java:142)
+	at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.getBatchStatement(AbstractBatchImpl.java:131)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3660)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3958)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:123)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3303)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2438)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 22 more
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NON_EXISTENT_ENTITY" not found; SQL statement:
+UPDATE non_existent_entity SET status = 'PICKED' WHERE id = ? [42102-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8398)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8369)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8358)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8328)
+	at org.h2.command.Parser.readSimpleTableFilter(Parser.java:1160)
+	at org.h2.command.Parser.parseUpdate(Parser.java:1118)
+	at org.h2.command.Parser.parsePrepared(Parser.java:858)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:92)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:337)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$1.doPrepare(StatementPreparerImpl.java:90)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	... 45 more
+
