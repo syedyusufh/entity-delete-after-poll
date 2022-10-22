@@ -1,0 +1,1 @@
+INSERT INTO student (id, name, status) VALUES (1, 'John', null);
